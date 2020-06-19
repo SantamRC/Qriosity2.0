@@ -1,0 +1,56 @@
+.navbar{
+    position: absolute;
+    height: 10%;
+    left: 2.57%;
+    right: 2.57%;
+    top: 5%;
+    
+    background: #c4c4c444;
+    border-radius: 60px;
+}
+
+.login{
+    position: absolute;
+    height: 30%;
+    left: 80.71%;
+    right: 9.84%;
+    top: 25%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 170%;
+    
+    color: #FFFCFC;
+}
+
+.rules{
+    position: absolute;
+    height: 30%;
+    right: 5%;
+    top: 25%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 170%;
+    
+    color: #FFFCFC;
+}
+
+.qriosity{
+    position: absolute;
+    height: 50%;
+    left: 5%;
+    right:90%;
+    top: 15%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240%;
+    
+
+    color: #ffffff;
+}
+
