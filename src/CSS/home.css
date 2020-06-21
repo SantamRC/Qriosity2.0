@@ -1,5 +1,5 @@
 @media only screen and (min-width:450px){
-    .back{
+    body{
         position: absolute;
         left: 0%;
         right: 0%;
@@ -8,8 +8,8 @@
         height: 100%;
         
         background-repeat: no-repeat;
-        background-size: 60%; 
-        background-image: url(../Assets/Images/back.jpg);
+        background-size: cover;
+        background-image: url(../Assets/Images/back-desk.jpg);
     }
     
     .box{
@@ -49,7 +49,7 @@
 }
 
 @media only screen and (max-width:450px){
-    .back{
+    body{
         position: absolute;
         left: 0%;
         right: 0%;
@@ -58,8 +58,8 @@
         height: 100%;
         
         background-repeat: no-repeat;
-        background-size: 60%; 
-        background-image: url(../Assets/Images/back.jpg);
+        background-size: 100%; 
+        background-image: url(../Assets/Images/back-phn.jpg);
     }
     
     .box{

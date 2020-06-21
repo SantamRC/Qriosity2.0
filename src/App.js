@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router,Route} from 'react-router-dom'
-import NAV from './nav'
+import NAVN from './nav-new'
 import HOME from './home'
 import LOGIN from './login'
 
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <NAV />
+          <NAVN/>
           <Route path='/' exact component={HOME} />
           <Route path='/login' exact component={LOGIN} />
         </Router>

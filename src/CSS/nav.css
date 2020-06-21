@@ -78,6 +78,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 3vw;
+        font-style: unset;
         
         color: #FFFCFC;
     }
