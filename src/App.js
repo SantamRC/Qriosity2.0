@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <NAVN/>
-          <Route path='/' exact component={HOME} />
+          <Route path='' exact component={HOME} />
           <Route path='/login' exact component={LOGIN} />
           <Route path='/start' exact component={QUES} />
           <Route path='/stage1' exact component={STG1} />
