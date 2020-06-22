@@ -7,7 +7,7 @@ export default function NAVN(){
         <div>
             <div className='navbar'>
                 <Route>             
-                    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <nav className="navbar navbar-expand-md bg-dark navbar-dark">
                         <Link to='/'><div class="navbar-brand" >Qriosity2.0</div></Link>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@ export default function NAVN(){
                                    <Link to='/login'><div class="nav-link" >LOGIN</div></Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">RULES</a>
+                                    <a class="nav-link" href="#">LEADERBOARD</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">ABOUT</a>

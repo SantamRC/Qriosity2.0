@@ -1,0 +1,20 @@
+.card-deck{
+    position: absolute;
+    padding: 4vw;
+    
+}
+
+.card{
+    border-radius: 20px;
+    width: 90vw;
+    opacity: 0.7;
+}
+
+.card-text{
+    color: rgb(254, 254, 255);
+    opacity: 1;
+}
+
+.card:hover{
+    opacity: 0.9;
+}
